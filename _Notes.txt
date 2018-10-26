@@ -1,0 +1,23 @@
+Form Builder and Generator for Bootstrap
+http://bootsnipp.com/forms
+
+--------------------------------------------------
+
+A simple online fake REST API server
+https://github.com/typicode/jsonplaceholder#how-to
+
+
+    $("#btnTest").click(function () {
+        $.ajax({
+            type: "get",
+            url: "http://jsonplaceholder.typicode.com/posts/3",
+            dataType: "json",
+            success: function (data) {
+                $("#info").text(JSON.stringify(data));
+            }
+        });
+        // $("#info").text("OK");
+    })
+
+
+--------------------------------------------------
