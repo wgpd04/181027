@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script>
+            function sayHi(who) {
+                alert("Hi! " + who)
+            }
+            
+            var h = sayHi;
+            
+            h.firstName = "Jeremy";
+            
+            h.bye = function () {
+                alert("bye~~~");
+            }
+
+            //  h("Chien");
+            h.bye()
+        </script>
+    </body>
+</html>
